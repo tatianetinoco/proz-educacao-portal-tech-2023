@@ -1,0 +1,34 @@
+Criar uma sequência lógica dos passos necessários para a preparação de um bolo de chocolate com os ingredientes: ovos, leite, farinha, açúcar, manteiga e achocolatado em pó
+
+Algoritmo - Descrição Narrativa
+
+"Bolo De Chocolate"
+
+Ingredientes:
+4 ovos
+240ml leite
+300 gramas farinha de trigo
+400 gramas açúcar
+200 gramas manteiga
+90 gramas achocolatado em pó
+
+
+Modo de Preparo:
+1 - Aqueça o forno a 180 graus;
+2 - Pegue uma fôrma e unte com manteiga e polvilhe farinha de trigo;
+3 - Em uma recipiente, misture a farinha de trigo e o achocolatado em pó;
+4 - Pegue uma batedeira;
+5 - Bata na batedeira a manteiga, o açucar e os ovos em velocidade alta;
+6 - Quando a massa ficar homogênea desligue a batedeira;
+7 - Adicione na batedeira a mistura feita com a farinha de trigo e o achocolatado em pó;
+8 - Adicione aos poucos o leite na batedeira e bata apenas para misturar os ingredientes;
+9 - Desligue a batedeira;
+10 - Despeje a massa da batedeira na fôrma que foi preparada; 
+11 - Leve ao forno para assar por cerca de 40 minutos;
+12 - Espete um palito para verificar se ficou pronto;
+13 - Se o palito sair sujo de massa, deixe assar por mais 5 minutos;
+14 - Senão, o bolo está pronto;
+15 - Após assado, desligue o forno;
+16 - Retire o bolo do forno e deixe esfriar;
+17 - Desenforme e sirva;
+
