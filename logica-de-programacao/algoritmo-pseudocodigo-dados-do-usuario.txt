@@ -1,0 +1,35 @@
+Algoritmo "dadosDoUsuario"
+
+Var
+nome:caracter
+endereco: caractere
+cidade:caractere
+CPF: inteiro
+RG: inteiro
+
+inicio
+ESCREVA("Informe seu nome: ")
+leia(nome)
+
+ESCREVA("Informe seu endereço: ")
+leia(endereco)
+
+ESCREVA("Informe sua cidade: ")
+leia(cidade)
+
+ESCREVA("Informe seu CPF(sem pontos ou traços): ")
+leia(CPF)
+
+ESCREVA("Informe seu RG(sem pontos ou traços): ")
+leia(RG)
+
+ESCREVA(nome," reside no endereço ",endereco, " localizado na cidade de ",cidade," é inscrito no CPF",CPF," e portador do RG",RG)
+
+Fimalgoritmo
+
+
+
+
+
+
+
