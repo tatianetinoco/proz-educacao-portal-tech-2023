@@ -1,0 +1,22 @@
+Algoritmo "clienteSetorRestaurante"
+
+
+Var
+opcao: inteiro
+inicio
+escreval ("Bem-Vindo(a)! Escolha uma das opções abaixo:")
+escreval ("Digite 1 Se você for FUMANTE ou Se Estiver com ANIMAL de estimação")
+escreval ("Digite 2 Se estiver acompanhado por 5 pessoas ou mais")
+escreval ("Digite 3 Se Estiver Sozinho ou acompanhado por 4 pessoas ou menos")
+leia (opcao)
+escolha (opcao)
+caso 1
+escreval ("Favor ir para a área Externa")
+caso 2
+escreval ("Favor ir para o 1o Andar")
+caso 3
+escreval ("Favor ir para Térreo")
+outrocaso
+escreval ("Número Inválido. Escolha 1, 2 ou 3")
+fimescolha
+Fimalgoritmo
