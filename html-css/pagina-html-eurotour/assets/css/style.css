@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0% 5%;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0,70,135,1) 0%, rgba(0,44,84,1) 100%);  
+    height: 25vh;   
+}
+
+.navbar {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+nav ul li {
+    padding: 10px;
+    display: inline-block;   
+}
+
+li {
+    list-style: none; 
+}
+
+
+.logo {
+    height: 42px;
+    cursor: pointer;
+}
+
+
+.menu {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: rgb(39, 170, 225);
+    transition: 200ms;
+}
+
+
+main {
+    padding: 1% 1%;
+    background: #ececec;
+}
+
+
+.saudacao{
+    color: #004687;
+    font-size: 50px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    text-shadow: 1px 2px rgb(39, 170, 225), 1px 2px 2px black; 
+    margin-bottom: 10px;
+}
+
+.descricao{
+    padding-top: 5px;
+    font-style: italic;
+}
+
+section h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 30px 0px 20px 0px;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+}
+
+.coluna1 {
+    padding: 10px ;
+}
+ 
+.coluna1 p {
+    padding: 5px 5px;
+}
+
+.clientes {
+    padding: 10px 0;
+}
+
+.clientes p {
+    display: flex;
+    align-items: center;
+}
+
+#titulocliente {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    font-family: Roboto;
+    background: rgb(212, 212, 212);
+    padding: 20px;
+}
+
+.fotos{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.fotos img {
+    width: 32%;
+}
+
+.fotos img:hover{
+    transition: 0.2s; 
+    opacity : 0.8;
+}
+
+
+.footer {
+    height: 20vh;
+    background: linear-gradient(0deg, rgba(0,70,135,1) 0%, rgba(0,44,84,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes h3 {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.redes {
+    padding: 20px;
+    color:  rgb(0, 195, 255);
+}
+
+button {
+    background-image: linear-gradient(#42A1EC, #0070C9);
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    height: 42px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-image: linear-gradient(#51A9EE, #147BCD);   
+}
+
+#email {
+    width: 70%;
+    height: 42px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+}
