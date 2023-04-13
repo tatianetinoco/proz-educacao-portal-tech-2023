@@ -1,0 +1,76 @@
+body {
+    background: #eee;
+}
+
+.menu {
+    display: flex;
+    background: rgb(221, 221, 221);
+    height: 40px;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.menu li {
+    list-style: none; 
+    margin-left: 20px;
+}
+
+
+.title {
+    color: rgb(183, 0, 255);
+}
+
+.caixa {
+    height: 40px;
+    width: 150px;
+    padding: 50px;
+    margin: 10px;
+    font-size: 18px;
+    border: 5px solid rgb(224, 0, 253) ;
+    border-radius: 10px;
+    background: pink;
+}
+
+.caixa:hover{
+    background: rgba(207, 1, 128, 0.342);
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    padding: 3px;
+
+}
+
+.form-um {
+    display:inline-block;
+    background: #f5fffd;
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+#titulo-um {
+    color: rgb(16, 91, 231);
+    margin: 50px 0 0 50px;
+}
+
+
+#titulo-dois {
+    color: rgb(16, 91, 231);
+    margin-left: 50px;
+}
+
+.form-dois {
+    display:inline-block;
+    background: #dcf5ff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 0 0 100px 50px;
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="./index.html">FORMULÁRIO</a></li>
+        <li><a href="./css.html">CSS</a></li>
+    </ul>
+   
+
+
+    <h1 id="titulo-um">Formulário De Contato</h1>
+    <h3 style="color: blueviolet; margin-left: 50px" ><i>Aula Ao Vivo Juliana 10/04/2023</i></h3>
+    <form class="form-um" action="">
+        <label for="username">Nome:</label>
+        <input type="text" id="username" name="username" > <br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade"> <br>
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel" > <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" > <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" >
+    </form>
+
+    <br><br><br><br>
+
+    <h2 id="titulo-dois">Segundo Formulário / Joy Luis</h2>
+    <form class="form-dois" action="">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha">
+        <label for="telefone">Telefone: </label>
+        <input type="tel" name="telefone" id="telefone">
+	
+    <section>
+        <p>Nacionalidade (Uso de Radio)</p>
+        <input type="radio" name="nacionalidade" id="brasil" value="brasil">
+        <label for="brasil">Brasileiro(a): </label>
+        <input type="radio" name="nacionalidade" id="outro" value="outro">
+        <label for="outro">Estrangeiro(a): </label>
+    </section>
+
+    <section>
+        <p>Meio De Transporte (Uso de Checkbox) </p>
+        <input type="checkbox" name="meio-transporte" id="pe" value="pe">
+        <label for="pe">A pé</label>
+        <input type="checkbox" name="meio-transporte" id="bicicleta" value="bicicleta">
+        <label for="bicicleta">Bicicleta</label>
+        <input type="checkbox" name="meio-transporte" id="carro" value="carro">
+        <label for="carro">Carro</label>
+    </section>
+	<button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
