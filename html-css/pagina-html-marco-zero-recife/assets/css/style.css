@@ -170,6 +170,22 @@ main {
     margin: 1% 1% 5% 1%;
 }
 
+#chamada-recife-antigo{
+  padding: 2%;
+  font-size: 20px;
+}
+
+.pontos-turisticos {
+  margin-top: 60px;
+}
+.pontos-turisticos p {
+  margin-top: 20px;
+}
+
+#fonte-texto {
+  margin-top: 50px;
+}
+
 footer {
     display: flex;
     height: 180px;
